@@ -1,5 +1,5 @@
 pub mod prelude {
-    pub use color_eyre::{Result, eyre::eyre as err};
+    pub use color_eyre::{eyre::eyre as err, eyre::WrapErr, Result};
     pub use itertools::Itertools;
 }
 
